@@ -1,0 +1,61 @@
+.testimonial {
+  margin-top: 150px;
+}
+
+.swiper {
+  width: 85%;
+  height: 450px;
+  padding: 0 20px 30px 17px;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 12px 14px 3px rgba(34, 60, 80, 0.2);
+}
+
+.swiper-slide-text {
+  display: block;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.swiper-slide h2,
+img {
+  position: relative;
+}
+
+.swiper-slide img {
+  padding: 0px 0px 245px 45px;
+}
+
+.swiper-slide h2 {
+  font-size: 35px;
+  padding: 0px 0px 245px 65px;
+}
+
+.swiper-slider-title {
+  width: 280px;
+  position: absolute;
+  left: 40px;
+  margin-top: 55px;
+}
+
+.swiper-slide li {
+  display: flex;
+  padding: 5px;
+  text-align: left;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.swiper-slide li::before {
+  content: "\2022";
+  color: #0093e6;
+  padding-right: 10px;
+}

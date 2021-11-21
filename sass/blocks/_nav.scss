@@ -1,0 +1,35 @@
+.nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  &__row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 140px;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 40px;
+  }
+}
+.navigation {
+  ul {
+    display: flex;
+  }
+
+  li:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  a {
+    color: $accent-color;
+    font-size: 24px;
+    font-weight: 300;
+  }
+}
