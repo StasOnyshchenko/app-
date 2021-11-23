@@ -110,4 +110,36 @@
   background: $button-color;
   color: $white;
   line-height: 18px;
+
+  transition: background-color 0.2s ease-in;
+
+  &:hover {
+    background-color: $button-color-hover;;
+    }
+  }
+
+
+.bottom__btn {
+  height: 40px;
+  font-size: 14px;
+  padding: 8px 60px 8px 60px;
+  border-radius: 10px;
+  background: $button-color;
+  color: $white;
+  line-height: 18px;
 }
+
+.slide__bottom-btn .bottom__btn{
+  margin-top: 40px;
+  margin-left: 95px;
+}
+
+.bottom__btn {
+    transition: background-color 0.2s ease-in;
+  
+&:hover {
+  background-color: $button-color-hover;;
+  }
+}
+
+
